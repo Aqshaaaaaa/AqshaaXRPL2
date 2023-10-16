@@ -1,0 +1,77 @@
+div.container > div{
+    background-color: salmon; 
+    margin: 100px;
+    font-size: 30px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    /* height: 100px; */
+ }
+
+ .container{
+    background-color: khaki;
+    display: flex;
+ }
+
+ /* PROPERTY FLEXBOX :
+ 1. flex-direction
+ 2. flex-wrap
+ 3. flex-flow
+ 4. justify-content
+ 5.align-items
+ 6. align-content
+ 7. dll.
+ */
+
+ /* FLEX DIRECTION */
+.container{
+    /* flex-direction: ; */
+}
+
+/* FLEX WRAP */
+.container{
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap-reverse;
+}
+/* FLEX FLOW */
+/* GABUNGAN ANTAR FLEX DIRECTION DAN FLEX WRAP
+.selector{
+    flex-flow:  ;
+}
+*/
+
+.container{
+    /* flex-flow: row wrap; */
+}
+
+/* JUSTIFY CONTENT */
+/*
+ CENTER
+ SPACE-AROUND
+ SPACE-BETWEEN
+ SPACE-EVENLY
+ START
+ END
+ FLEX-START
+ FLEX-END
+ RIGHT
+ LEFT 
+ */
+.container{
+    /* justify-content: space-around; */
+}
+
+/* ALIGN ITEMS */
+.container{
+    /* height: 200px; */
+    /* align-items: center;  */
+}
+
+/* ALIGN CONTENT */
+.container{
+    /* height: 400px; */
+    /* flex-wrap: wrap; */
+     /* align-content: center;  */
+}                                                                                  x
+
